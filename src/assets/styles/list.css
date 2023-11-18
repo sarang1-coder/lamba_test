@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.main {
+  border: 5px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main:hover {
+  background-color: #f5f5f5; /* Light color on hover */
+  transform: translateY(-5px); /* Move box slightly up on hover */
+  z-index: 1; /* Bring the box to the front on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.info {
+  margin-top: 15px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .thumbnails img {
+    width: 100%;
+  }
+}

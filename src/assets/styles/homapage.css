@@ -1,0 +1,25 @@
+.container::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar,
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  margin-top: 3%;
+  height: 85vh;
+  overflow: hidden;
+  background-color: rgb(175, 175, 181);
+}
+
+.sidebar {
+  flex: 0 0 20%;
+  border: 3px solid black;
+  overflow-y: auto;
+}
+
+.content {
+  flex: 0 0 70%;
+  margin-left: 5%;
+  overflow-y: auto;
+}

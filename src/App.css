@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  height: 5vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 5vh;
+  height: 5vh;
+  width: 100%;
 }
